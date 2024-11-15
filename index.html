@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Pixelkraftwerk</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="" name="keywords" />
+        <meta content="" name="description" />
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Saira:wght@500;600;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div class="spinner-grow text-primary" role="status"></div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar Start -->
+        <div
+            class="container-fluid fixed-top px-0 wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <div
+                class="top-bar text-white-50 row gx-0 align-items-center d-none d-lg-flex"
+            >
+                <div class="col-lg-12 px-5 text-start">
+                    <small
+                        ><i class="fa fa-map-marker-alt me-2"></i
+                        >Meyerbeerstraße 59, 13088 Berlin, Deutschland</small
+                    >
+                    <small class="ms-4"
+                        ><i class="fa fa-envelope me-2"></i
+                        >pixel_kraftwerk@gmail.com</small
+                    >
+                </div>
+            </div>
+            <nav
+                class="navbar navbar-expand-lg navbar-dark py-lg-0 px-lg-5 wow fadeIn"
+                data-wow-delay="0.1s"
+            >
+                <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
+                    <h1 class="fw-bold text-primary m-0">
+                        Pixel<span class="text-white">Kraftwerk</span>
+                    </h1>
+                </a>
+                <button
+                    type="button"
+                    class="navbar-toggler me-4"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto p-4 p-lg-0">
+                        <a href="index.html" class="nav-item nav-link active"
+                            >Startseite</a
+                        >
+                        <a href="#about" class="nav-item nav-link">Über uns</a>
+                        <a href="#service" class="nav-item nav-link"
+                            >Dienstleistungen</a
+                        >
+                        <a href="#team" class="nav-item nav-link">Team</a>
+                        <a href="#contact" class="nav-item nav-link">Kontakt</a>
+                    </div>
+                    <div class="d-none d-lg-flex ms-2">
+                        <a
+                            class="btn btn-outline-primary py-2 px-3"
+                            href="#contact"
+                        >
+                            Kontaktieren Sie uns
+                            <div
+                                class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2"
+                            >
+                                <i class="fa fa-arrow-right"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- Navbar End -->
+
+        <!-- Carousel Start -->
+        <div class="container-fluid p-0 mb-5">
+            <div
+                id="header-carousel"
+                class="carousel slide"
+                data-bs-ride="carousel"
+            >
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img
+                            class="w-100"
+                            src="img/carousel-1.jpg"
+                            alt="Image"
+                        />
+                        <div class="carousel-caption">
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-7 pt-5">
+                                        <h1
+                                            class="display-4 text-white mb-3 animated slideInDown"
+                                        >
+                                            Kreative Digitale Lösungen
+                                        </h1>
+                                        <p
+                                            class="fs-5 text-white-50 mb-5 animated slideInDown"
+                                        >
+                                            Entdecken Sie innovative digitale
+                                            Strategien und maßgeschneiderte
+                                            Lösungen. Wir helfen Ihnen, Ihre
+                                            Marke zu stärken, digitale Präsenz
+                                            aufzubauen und beeindruckende
+                                            Ergebnisse zu erzielen.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img
+                            class="w-100"
+                            src="img/carousel-2.jpg"
+                            alt="Image"
+                        />
+                        <div class="carousel-caption">
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-7 pt-5">
+                                        <h1
+                                            class="display-4 text-white mb-3 animated slideInDown"
+                                        >
+                                            Digitale Markenstrategie
+                                        </h1>
+                                        <p
+                                            class="fs-5 text-white-50 mb-5 animated slideInDown"
+                                        >
+                                            Entwickeln Sie mit uns digitale
+                                            Strategien, um Ihre Zielgruppe zu
+                                            erreichen, Ihre Marke zu stärken und
+                                            sich in einer dynamischen
+                                            Online-Welt zu positionieren.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#header-carousel"
+                    data-bs-slide="prev"
+                >
+                    <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Zurück</span>
+                </button>
+                <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#header-carousel"
+                    data-bs-slide="next"
+                >
+                    <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Weiter</span>
+                </button>
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+        <!-- About Start -->
+        <div id="about" class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div
+                            class="position-relative overflow-hidden h-100"
+                            style="min-height: 400px"
+                        >
+                            <img
+                                class="position-absolute w-100 h-100 pt-5 pe-5"
+                                src="img/about-1.jpg"
+                                alt=""
+                                style="object-fit: cover"
+                            />
+                            <img
+                                class="position-absolute top-0 end-0 bg-white ps-2 pb-2"
+                                src="img/about-2.jpg"
+                                alt=""
+                                style="width: 200px; height: 200px"
+                            />
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="h-100">
+                            <div
+                                class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3"
+                            >
+                                Über Uns
+                            </div>
+                            <h1 class="display-6 mb-5">
+                                Ihr Partner für kreative digitale Lösungen und
+                                innovative Strategien
+                            </h1>
+                            <div
+                                class="bg-light border-bottom border-5 border-primary rounded p-4 mb-4"
+                            >
+                                <p class="text-dark mb-2">
+                                    Wir sind ein Team leidenschaftlicher
+                                    Experten, die sich darauf konzentrieren,
+                                    Ihre digitalen Ziele zu verwirklichen. Mit
+                                    innovativen Technologien und kreativen Ideen
+                                    entwickeln wir maßgeschneiderte digitale
+                                    Strategien, die Ihre Marke hervorheben.
+                                </p>
+                            </div>
+                            <p class="mb-5">
+                                Von der Entwicklung ansprechender Designs bis
+                                zur Optimierung Ihrer Online-Präsenz – wir
+                                arbeiten mit Ihnen zusammen, um digitale
+                                Lösungen zu schaffen, die Ergebnisse liefern.
+                                Lassen Sie uns gemeinsam die digitale Zukunft
+                                gestalten.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!-- Features Start -->
+        <div class="container-xxl bg-light my-5 py-5">
+            <div class="container py-5">
+                <div
+                    class="text-center mx-auto mb-5 wow fadeInUp"
+                    data-wow-delay="0.1s"
+                    style="max-width: 500px"
+                >
+                    <div
+                        class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3"
+                    >
+                        Unsere Merkmale
+                    </div>
+                    <h1 class="display-6">
+                        Maßgeschneiderte digitale Lösungen für Ihre Marke
+                    </h1>
+                    <p class="mb-5">
+                        Unser Team bietet kreative Strategien und innovative
+                        digitale Lösungen, die speziell auf die Bedürfnisse
+                        Ihrer Marke abgestimmt sind. Mit modernster Technologie
+                        und einem einzigartigen Ansatz helfen wir Ihnen, Ihre
+                        digitale Präsenz zu optimieren und beeindruckende
+                        Ergebnisse zu erzielen.
+                    </p>
+                </div>
+                <div class="row g-4 justify-content-center">
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div
+                            class="causes-item d-flex flex-column bg-white border-top border-5 border-primary rounded-top overflow-hidden h-100"
+                        >
+                            <div class="text-center p-4 pt-0">
+                                <h5 class="mb-3 mt-3">
+                                    Individuelle digitale Strategien
+                                </h5>
+                                <p>
+                                    Wir erstellen digitale Strategien, die
+                                    speziell auf Ihre Marke und Ihre Zielgruppe
+                                    zugeschnitten sind. So stellen wir sicher,
+                                    dass Ihre Online-Präsenz sich von der
+                                    Konkurrenz abhebt.
+                                </p>
+                            </div>
+                            <div class="position-relative mt-auto">
+                                <img
+                                    class="img-fluid"
+                                    src="img/courses-1.jpg"
+                                    alt=""
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <div
+                            class="causes-item d-flex flex-column bg-white border-top border-5 border-primary rounded-top overflow-hidden h-100"
+                        >
+                            <div class="text-center p-4 pt-0">
+                                <h5 class="mb-3 mt-3">
+                                    Kreatives Design und Branding
+                                </h5>
+                                <p>
+                                    Unsere Experten entwickeln einzigartige
+                                    visuelle Konzepte, die Ihre Marke stärken
+                                    und einen bleibenden Eindruck bei Ihrer
+                                    Zielgruppe hinterlassen.
+                                </p>
+                            </div>
+                            <div class="position-relative mt-auto">
+                                <img
+                                    class="img-fluid"
+                                    src="img/courses-2.jpg"
+                                    alt=""
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <div
+                            class="causes-item d-flex flex-column bg-white border-top border-5 border-primary rounded-top overflow-hidden h-100"
+                        >
+                            <div class="text-center p-4 pt-0">
+                                <h5 class="mb-3 mt-3">
+                                    Digitale Marketinglösungen
+                                </h5>
+                                <p>
+                                    Mit datenbasierten Ansätzen und innovativen
+                                    Tools entwickeln wir Marketingstrategien,
+                                    die Ihre Zielgruppe erreichen und maximale
+                                    Ergebnisse liefern.
+                                </p>
+                            </div>
+                            <div class="position-relative mt-auto">
+                                <img
+                                    class="img-fluid"
+                                    src="img/courses-3.jpg"
+                                    alt=""
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Features End -->
+
+        <!-- Service Start -->
+        <div id="service" class="container-xxl py-5">
+            <div class="container">
+                <div
+                    class="text-center mx-auto mb-5 wow fadeInUp"
+                    data-wow-delay="0.1s"
+                    style="max-width: 500px"
+                >
+                    <div
+                        class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3"
+                    >
+                        Was Wir Tun
+                    </div>
+                    <h1 class="display-6">
+                        Kreative Lösungen für Ihre digitale Präsenz
+                    </h1>
+                    <p class="mb-5">
+                        Wir bieten umfassende digitale Dienstleistungen, um Ihre
+                        Marke in der digitalen Welt zu stärken. Von der
+                        Strategieentwicklung über kreatives Design bis hin zur
+                        Umsetzung effektiver Marketingkampagnen – unser Ziel ist
+                        es, Ihre Marke in den Fokus zu rücken und nachhaltigen
+                        Erfolg zu sichern.
+                    </p>
+                </div>
+                <div class="row g-4 justify-content-center">
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div
+                            class="service-item bg-white text-center h-100 p-4 p-xl-5"
+                        >
+                            <img
+                                class="img-fluid mb-4"
+                                src="img/icon-1.png"
+                                alt=""
+                            />
+                            <h4 class="mb-3">Strategische Digitalplanung</h4>
+                            <p class="mb-4">
+                                Unsere Experten entwickeln digitale Strategien,
+                                die auf Ihre Ziele und Herausforderungen
+                                zugeschnitten sind. Gemeinsam erarbeiten wir
+                                innovative Lösungen, um Ihre Marke digital
+                                erfolgreich zu positionieren.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <div
+                            class="service-item bg-white text-center h-100 p-4 p-xl-5"
+                        >
+                            <img
+                                class="img-fluid mb-4"
+                                src="img/icon-2.png"
+                                alt=""
+                            />
+                            <h4 class="mb-3">Web- und Grafikdesign</h4>
+                            <p class="mb-4">
+                                Wir gestalten beeindruckende und
+                                nutzerfreundliche Designs, die Ihre
+                                Markenbotschaft klar und kreativ kommunizieren.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <div
+                            class="service-item bg-white text-center h-100 p-4 p-xl-5"
+                        >
+                            <img
+                                class="img-fluid mb-4"
+                                src="img/icon-3.png"
+                                alt=""
+                            />
+                            <h4 class="mb-3">Effektives digitales Marketing</h4>
+                            <p class="mb-4">
+                                Mit zielgerichteten Marketingkampagnen und
+                                datenbasierten Ansätzen unterstützen wir Sie
+                                dabei, Ihre Reichweite zu maximieren und Ihre
+                                Botschaft wirkungsvoll zu verbreiten.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Service End -->
+
+        <!-- Ansatz Start -->
+        <div class="container-fluid donate my-5 py-5" data-parallax="scroll">
+            <div class="container py-5">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                        <div
+                            class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3"
+                        >
+                            Unser Ansatz
+                        </div>
+                        <h1 class="display-6 text-white mb-5">
+                            Ein strukturierter Weg zur Entwicklung innovativer
+                            Digitalstrategien
+                        </h1>
+                        <p class="text-white-50 mb-0">
+                            Unser Ansatz zur Entwicklung digitaler Lösungen
+                            basiert auf strukturierter Planung, enger
+                            Zusammenarbeit und strategischem Denken. Wir
+                            identifizieren die einzigartigen Stärken und
+                            Potenziale jedes Projekts, um maßgeschneiderte
+                            Strategien zu entwickeln, die auf Ihre Zielgruppe
+                            abgestimmt sind. Durch detaillierte Marktanalysen
+                            und kreatives Konzeptdesign unterstützen wir Ihr
+                            Unternehmen dabei, digitale Trends zu nutzen und
+                            langfristigen Erfolg zu sichern.
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <img
+                            class="donate-image"
+                            src="img/carousel-3.jpg"
+                            alt=""
+                        />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Ansatz Ende -->
+
+        <!-- Team Start -->
+        <div class="container-xxl py-5" id="team">
+            <div class="container">
+                <div
+                    class="text-center mx-auto mb-5 wow fadeInUp"
+                    data-wow-delay="0.1s"
+                    style="max-width: 500px"
+                >
+                    <div
+                        class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3"
+                    >
+                        Teammitglieder
+                    </div>
+                    <h1 class="display-6">
+                        Experten für kreative digitale Lösungen und innovative
+                        Kampagnen
+                    </h1>
+                    <p class="mb-5">
+                        Unser Team besteht aus erfahrenen Fachleuten mit
+                        unterschiedlichen Kompetenzen in den Bereichen
+                        Webdesign, digitale Strategieentwicklung,
+                        Content-Erstellung und Marktanalyse. Jeder bringt
+                        einzigartige Perspektiven ein, um Ihnen maßgeschneiderte
+                        Lösungen für Ihre digitalen Projekte zu bieten. Mit
+                        unserer Expertise unterstützen wir Sie dabei, im
+                        digitalen Umfeld erfolgreich zu agieren und nachhaltige
+                        Ergebnisse zu erzielen.
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div
+                        class="col-lg-3 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div
+                            class="team-item position-relative rounded overflow-hidden"
+                        >
+                            <div class="overflow-hidden">
+                                <img
+                                    class="img-fluid"
+                                    src="img/team-1.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="team-text bg-light text-center p-4">
+                                <h5>Sarah Müller</h5>
+                                <p class="text-primary">Webdesignerin</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-3 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <div
+                            class="team-item position-relative rounded overflow-hidden"
+                        >
+                            <div class="overflow-hidden">
+                                <img
+                                    class="img-fluid"
+                                    src="img/team-2.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="team-text bg-light text-center p-4">
+                                <h5>Michael Schmidt</h5>
+                                <p class="text-primary">
+                                    Strategischer Berater
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-3 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <div
+                            class="team-item position-relative rounded overflow-hidden"
+                        >
+                            <div class="overflow-hidden">
+                                <img
+                                    class="img-fluid"
+                                    src="img/team-3.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="team-text bg-light text-center p-4">
+                                <h5>Emily Fischer</h5>
+                                <p class="text-primary">Content-Spezialistin</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-3 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.7s"
+                    >
+                        <div
+                            class="team-item position-relative rounded overflow-hidden"
+                        >
+                            <div class="overflow-hidden">
+                                <img
+                                    class="img-fluid"
+                                    src="img/team-4.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="team-text bg-light text-center p-4">
+                                <h5>David Becker</h5>
+                                <p class="text-primary">Marktanalysexperte</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Team Ende -->
+
+        <!-- Testimonial Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div
+                    class="text-center mx-auto mb-5 wow fadeInUp"
+                    data-wow-delay="0.1s"
+                    style="max-width: 500px"
+                >
+                    <div
+                        class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3"
+                    >
+                        Kundenmeinungen
+                    </div>
+                    <h1 class="display-6">
+                        Was unsere Kunden über unsere digitalen Dienstleistungen
+                        sagen
+                    </h1>
+                    <p class="mb-5">
+                        Wir sind stolz darauf, mit unseren kreativen Lösungen
+                        und innovativen Strategien die Erwartungen unserer
+                        Kunden zu übertreffen. Durch unsere maßgeschneiderten
+                        digitalen Konzepte helfen wir Unternehmen, sich von der
+                        Masse abzuheben und neue Höhen zu erreichen. Hier sind
+                        einige Eindrücke unserer zufriedenen Kunden:
+                    </p>
+                </div>
+                <div
+                    class="owl-carousel testimonial-carousel wow fadeInUp"
+                    data-wow-delay="0.1s"
+                >
+                    <div class="testimonial-item text-center">
+                        <img
+                            class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4"
+                            src="img/testimonial-1.jpg"
+                            style="width: 100px; height: 100px"
+                        />
+                        <div class="testimonial-text rounded text-center p-4">
+                            <p>
+                                "Die Zusammenarbeit mit diesem Team hat unsere
+                                digitale Strategie auf ein neues Level gebracht.
+                                Sie halfen uns dabei, innovative Kampagnen zu
+                                entwickeln, die perfekt auf unsere Ziele
+                                abgestimmt sind. Ihre Expertise im Bereich
+                                Webdesign und Content-Strategie war entscheidend
+                                für unseren Erfolg."
+                            </p>
+                            <h5 class="mb-1">Jennifer Müller</h5>
+                        </div>
+                    </div>
+                    <div class="testimonial-item text-center">
+                        <img
+                            class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4"
+                            src="img/testimonial-2.jpg"
+                            style="width: 100px; height: 100px"
+                        />
+                        <div class="testimonial-text rounded text-center p-4">
+                            <p>
+                                "Unsere Erfahrung mit diesem Team war einfach
+                                großartig. Sie halfen uns dabei, eine starke
+                                digitale Präsenz aufzubauen und kreative
+                                Lösungen umzusetzen. Die gelieferten Strategien
+                                sind effektiv und zukunftsorientiert."
+                            </p>
+                            <h5 class="mb-1">James Becker</h5>
+                        </div>
+                    </div>
+                    <div class="testimonial-item text-center">
+                        <img
+                            class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4"
+                            src="img/testimonial-3.jpg"
+                            style="width: 100px; height: 100px"
+                        />
+                        <div class="testimonial-text rounded text-center p-4">
+                            <p>
+                                "Ich kann dieses Team nur weiterempfehlen! Ihre
+                                kreativen Ideen und ihre Fähigkeit, Trends
+                                frühzeitig zu erkennen, haben uns geholfen, neue
+                                Zielgruppen zu erreichen. Dank ihrer
+                                Unterstützung sind wir im digitalen Umfeld viel
+                                wettbewerbsfähiger geworden."
+                            </p>
+                            <h5 class="mb-1">Maria Fischer</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+
+        <!-- Contact Start -->
+        <div class="container-xxl py-5" id="contact">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                        <div
+                            class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3"
+                        >
+                            Kontaktieren Sie uns
+                        </div>
+                        <h1 class="display-6 mb-5">
+                            Starten Sie Ihre Reise zu innovativen digitalen
+                            Lösungen
+                        </h1>
+                        <p class="mb-4">
+                            Wir sind hier, um Sie bei der Umsetzung Ihrer
+                            digitalen Projekte zu unterstützen. Egal ob Sie
+                            kreative Kampagnen, maßgeschneiderte Strategien oder
+                            modernes Webdesign benötigen – unser erfahrenes Team
+                            steht bereit, Ihre Visionen Wirklichkeit werden zu
+                            lassen. Kontaktieren Sie uns noch heute, um
+                            gemeinsam innovative Lösungen zu entwickeln, die Ihr
+                            Unternehmen in der digitalen Welt hervorheben.
+                        </p>
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input
+                                            type="text"
+                                            class="form-control"
+                                            id="name"
+                                            placeholder="Ihr Name"
+                                        />
+                                        <label for="name">Ihr Name</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input
+                                            type="email"
+                                            class="form-control"
+                                            id="email"
+                                            placeholder="Ihre E-Mail"
+                                        />
+                                        <div
+                                            id="result"
+                                            style="color: red; font-size: 12px"
+                                        ></div>
+                                        <label for="email">Ihre E-Mail</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <input
+                                            type="text"
+                                            class="form-control"
+                                            id="subject"
+                                            placeholder="Betreff"
+                                        />
+                                        <label for="subject">Betreff</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <textarea
+                                            class="form-control"
+                                            placeholder="Hinterlassen Sie hier eine Nachricht"
+                                            id="message"
+                                            style="height: 100px"
+                                        ></textarea>
+                                        <label for="message">Nachricht</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button
+                                        class="btn btn-primary py-2 px-3 me-3"
+                                        id="submit"
+                                        onclick="sendForm()"
+                                    >
+                                        Nachricht senden
+                                        <div
+                                            class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2"
+                                        >
+                                            <i class="fa fa-arrow-right"></i>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div
+                        class="col-lg-6 wow fadeIn"
+                        data-wow-delay="0.5s"
+                        style="min-height: 450px"
+                    >
+                        <div
+                            class="position-relative rounded overflow-hidden h-100"
+                        >
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8646.600459079125!2d13.44894174085297!3d52.54484003298329!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a84fa51a42da9d%3A0xeacfae00d78c7cf6!2sBerliner%20Digitalb%C3%BCro!5e0!3m2!1suk!2sua!4v1731680922055!5m2!1suk!2sua"
+                                class="position-relative w-100 h-100"
+                                frameborder="0"
+                                style="min-height: 450px; border: 0"
+                                allowfullscreen=""
+                                aria-hidden="false"
+                                tabindex="0"
+                            ></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact End -->
+
+        <!-- Footer Start -->
+        <div
+            class="container-fluid bg-dark text-white-50 footer mt-5 pt-5 wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-4 col-md-6">
+                        <h1 class="fw-bold text-primary m-0">
+                            Digital<span class="text-white">Agency</span>
+                        </h1>
+                        <p>
+                            Vielen Dank, dass Sie unsere Website besuchen. Wir
+                            widmen uns der Entwicklung innovativer digitaler
+                            Lösungen, die Unternehmen dabei unterstützen, in der
+                            modernen digitalen Welt erfolgreich zu sein. Unsere
+                            maßgeschneiderten Dienstleistungen und kreativen
+                            Strategien heben Ihre Marke hervor und schaffen
+                            nachhaltigen Erfolg.
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h5 class="text-light mb-4">Adresse</h5>
+                        <p>
+                            <i class="fa fa-map-marker-alt me-3"></i
+                            >Meyerbeerstraße 59, 13088 Berlin, Deutschland
+                        </p>
+                        <p><i class="fa fa-phone-alt me-3"></i>+493040367330</p>
+                        <p>
+                            <i class="fa fa-envelope me-3"></i
+                            >pixel_kraftwerk@gmail.com
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h5 class="text-light mb-4">Schnelle Links</h5>
+                        <a class="btn btn-link" href="#about">Über uns</a>
+                        <a class="btn btn-link" href="#contact">Kontakt</a>
+                        <a class="btn btn-link" href="#services"
+                            >Unsere Services</a
+                        >
+                        <a class="btn btn-link" href="terms-of-use.html"
+                            >Nutzungsbedingungen</a
+                        >
+                        <a class="btn btn-link" href="privacy-policy.html"
+                            >Datenschutz</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+            ><i class="bi bi-arrow-up"></i
+        ></a>
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">Cookie-Zustimmung</h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    Diese Website verwendet Cookies, um Ihnen ein besseres und
+                    relevanteres Surferlebnis zu bieten.
+                    <a href="terms-of-use.html">Erfahren Sie mehr...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">
+                    Akzeptieren
+                </button>
+                <button class="cookie-button" id="declineBtn">Ablehnen</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/parallax/parallax.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/contact-form.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>
